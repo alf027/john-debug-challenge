@@ -1,0 +1,97 @@
+
+
+#container
+{
+	margin: 0 auto;
+	width: 1000px;
+	;
+
+}
+
+#tideimages
+{
+ display: none;
+ text-align: center;
+}
+#images
+{
+  text-align: center;
+}
+
+
+#header h1 {margin: 0; }
+
+
+
+#content
+{
+	clear: left;
+	padding: 30px;
+}
+
+#content h2
+{
+	color:#E9EDF1;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+#content p
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+
+}
+
+#footer
+{
+	background:#fff;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+  background: #E28C08;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999; 
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  
+
+}
