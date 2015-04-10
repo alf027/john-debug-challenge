@@ -8,14 +8,26 @@
 
 }
 
-#tideimages
+h1
+{
+  display: none;
+}
+
+p
+{
+  padding: 30px;
+
+}
+
+.tideimages
 {
  display: none;
  text-align: center;
 }
-#images
+.images
 {
   text-align: center;
+  display: block;
 }
 
 
@@ -26,7 +38,8 @@
 #content
 {
 	clear: left;
-	padding: 30px;
+	padding: 40px;
+  text-align: center;
 }
 
 #content h2

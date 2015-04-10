@@ -4,7 +4,9 @@ $(document).ready(function(){
 		$("body").css("background-image", 'url("alabamafootball.jpg")');
 		$("body").css("background-size", "1200px");
 		$("body").css("color", "white");
-		$("#tideimages").toggle();
-		$("#images").toggle();
+		$(".tideimages").toggle();
+		$(".images").toggle();
+		$("p").toggle();
+		$("h1").toggle();
     });
 });
