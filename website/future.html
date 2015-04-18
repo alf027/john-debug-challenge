@@ -1,22 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    
-    
-     <script src="my_jquery_functions.js"></script>
-    
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="my_jquery_functions.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $('#fullpage').fullpage();
+       });
+    </script>
+  
     <title>John Alfano</title>
-  </head>
+
+
+</head>
+
+
 <div id="container">
   
-  <header id='cssmenu' class='align-center'>
+
+<header id='cssmenu' class='align-center'>
 <ul>
    <li class='active'><a href="index.html"><span>About Me</span></a></li>
-   <li id='tide'><a href="#"><span>Roll Tide</span<></a></li>
+   <li id='tide'><a href="#"><span>Roll Tide</span></a></li>
    <li class='last'><a href="future.html"><span>Future Goals</span></a></li>
 </ul>
+
 </header>
+
+
+<div id="fullpage">
+  <div class="section" id="section0">
+
+    <h1>My goals after gSchool is to be able to build cool things and get a great job as a developer</h1>
+    <div class='images'>
+        <img src="http://www.windowscentral.com/sites/wpcentral.com/files/postimages/15741/devballmey.png" alt="DEVELOPERS!"></div>
+    <h2>ROLL TIDE!</h2>
+    <div class='tideimages'>
+      <img src="http://cdn3.sbnation.com/imported_assets/824190/Saban_Slams_Muschamp.gif" alt="the tide">
+    </div></div>
+
+  <div class="section" id="section1">
+
+    <h1>Never sit in this again</h1>
+
+    <div class='images'><img src="traffic.jpg" alt="never again"></div>
+    <h2>ROLL TIDE!</h2>
+     <div class='tideimages'>
+      <img src="http://cdn3.sbnation.com/imported_assets/824190/Saban_Slams_Muschamp.gif" alt="the tide">
+    </div></div>
+
+  <div class="section" id="section2">
+    <h1>Continue to stare at the flatirons every day</h1>
+    
+    <div class='images'>
+      <img src="flatirons1.jpg" alt="wow"></div>  
+    
+    <div class='tideimages'>
+      <img src="http://cdn3.sbnation.com/imported_assets/824190/Saban_Slams_Muschamp.gif" alt="the tide">
+    </div></div>
+
+</div>
+</div>
+
+</html>
+
+
+

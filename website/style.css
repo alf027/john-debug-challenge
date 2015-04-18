@@ -1,5 +1,5 @@
 
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #container
 {
 	margin: 0 auto;
@@ -10,12 +10,21 @@
 
 h1
 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+h2
+{
   display: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 30px;
+  text-align:center;
 }
 
 p
 {
-  padding: 30px;
+  padding: 0px;
 
 }
 
@@ -63,7 +72,7 @@ p
 	height: 1%;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
 #cssmenu {
   background: #E28C08;
   width: 100%;
@@ -92,6 +101,9 @@ p
   margin: 0;
 }
 
+.section{
+    text-align:center;
+  }
 #cssmenu.align-center ul {
   text-align: center;
 }

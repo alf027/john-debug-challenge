@@ -1,77 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
   <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
   	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  	
-  	
-  	 <script src="my_jquery_functions.js"></script>
-  	
   	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <meta charset="utf-8">
+  	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+  	
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  	<script src="my_jquery_functions.js"></script>
+  	<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage();
+		});
+	</script>
+	
     <title>John Alfano</title>
+
+
+    <style>
+
+	
+	.section{
+		text-align:center;
+	}
+
+
+
+	
+	</style>
+
   </head>
+
+
 <div id="container">
 	
 	<header id='cssmenu' class='align-center'>
 <ul>
    <li class='active'><a href="index.html"><span>About Me</span></a></li>
-   <li id='tide'><a href="#"><span>Roll Tide</span<></a></li>
+   <li id='tide'><a href="#"><span>Roll Tide</span></a></li>
    <li class='last'><a href="future.html"><span>Future Goals</span></a></li>
 </ul>
 </header>
-	<div id="content">
-		<h1>
-			Roll Tide!
-		</h1>
-		<p>
-			Hello! My name is John Alfano and I grew up in Birmingham, Alabama.  
 
-			<div class='images'>
-				<img src="birmingham.jpg">
-			</div>
-			<div class='tideimages'>
+<div id="fullpage">
+	<div class="section " id="section0">
 
-			<img src="http://cdn3.sbnation.com/imported_assets/824190/Saban_Slams_Muschamp.gif" alt="the tide">
-			</div>
-
-		</p>
-
-		<p>
-			I graduated from the University of Alabama in 2011 (see Roll Tide Section for more details)
-
-			<div class='images'>
-				<img src="http://upload.wikimedia.org/wikipedia/en/2/28/BamaSeal.png">
-			</div>
-		</p>
-
-		<p>
-		I got married last June to my beautiful wife Tasha!
+		<h1>Hello! My name is John Alfano and I grew up in Birmingham, Alabama.</h1>
+		<h2>ROLL TIDE!</h2>
 
 		<div class='images'>
-			<img src="marriage.jpg">
+				<img src="birmingham.jpg" alt="aka da ham">
 
-		</p>
 
-		<p>
-		I worked for Hewlett Packard up until a few days ago and couldn't be happier to be here!
-		<div class='images'>
-			<img src="http://www.thecollaredsheep.com/wp-content/uploads/2011/06/Cubicle-Farm-Motivational-Poster.jpg">
 		</div>
 
-		</p>
-		<p>
-			This is how I feel about being at gSchool!
+		<div class='tideimages'>
+			<img src="http://cdn3.sbnation.com/imported_assets/824190/Saban_Slams_Muschamp.gif" alt="the tide">
+		</div>
+
+	</div>
+
+	<div class="section" id="section1">
+		<h1>I graduated from the University of Alabama in 2011 (see Roll Tide Section for more details)</h1>
+		<h2>ROLL TIDE!</h2>
+				<div class='images'>
+					<img src="http://upload.wikimedia.org/wikipedia/en/2/28/BamaSeal.png" alt="the tide">
+				</div>
+		<div class='tideimages'>
+			<img src="http://cdn3.sbnation.com/imported_assets/824190/Saban_Slams_Muschamp.gif" alt="the tide">
+		</div>
+		
+	</div>
+	<div class="section" id="section2">
+		<h1>
+		I got married last June to my beautiful wife Tasha!</h1>
+		<h2>ROLL TIDE!</h2>
+
+		<div class='images'>
+			<img src="marriage.jpg" alt="love and marriage">
+		</div>
+		<div class='tideimages'>
+			<img src="http://cdn3.sbnation.com/imported_assets/824190/Saban_Slams_Muschamp.gif" alt="the tide">
+		</div>
+	</div>
+
+	<div class="section" id="section3">
+		<h1>I worked for Hewlett Packard up until a few days ago and couldn't be happier to be here!</h1>
+		<h2>ROLL TIDE!</h2>
+		<div class='images'>
+			<img src="Cubicle-Farm-Motivational-Poster.jpg" alt="never again">
+		</div>
+		<div class='tideimages'>
+			<img src="http://cdn3.sbnation.com/imported_assets/824190/Saban_Slams_Muschamp.gif" alt="the tide">
+		</div>
+	</div>
+
+	<div class="section" id="section4">
+		<h1>This is how I feel about being at gSchool!</h1>
+		<h2>ROLL TIDE!</h2>
 
 		<div class='images'>
 
 			<img src="http://i.imgur.com/vwMin.gif" alt="its happening">
 		</div>
-		
-		</p>
-		
-	</div>
+		<div class='tideimages'>
+			<img src="http://cdn3.sbnation.com/imported_assets/824190/Saban_Slams_Muschamp.gif" alt="the tide">
+		</div>
+
 
 	
-</div>
+
+	
+</div></div></div>
 </html>
